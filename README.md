@@ -22,7 +22,7 @@ RDKit, PySide2, pandas, scikit-learn>1.0.0
 ### SSH
 It is assumed you have a working version of Reinvent 3 on a Server instance that is running SLURM and SSH.
 
-1. Change the ssh settings in the `metis/to_reinvent/input_files/ssh_settings.yml` file [here](https://github.com/JanoschMenke/metis/blob/691ad0b614f4cc74dad82fbe03f71f725752e4c1/metis/reinvent_connect/input_files/ssh_settings.yml#L1C1-L2C105).
+1. Change the ssh settings in the `metis/to_reinvent/input_files/ssh_settings.yml` file [here](https://github.com/yasminenahal/metis/blob/nahal_experiment/metis/reinvent_connect/input_files/ssh_settings.yml).
       - `ssh_login`: your loging to SSH e.g. `username@remote_server` *you should be able to access your remote server without password for example using an RSA Key*
       - `path_remote_folder`: path on the remote machine, from where Reinvent files will be loaded and stored.
 2. Copy an inital Reinvent Agent into the same directory specified under `path_remote_folder` in the `ssh_settings.yml` file
