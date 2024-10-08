@@ -22,12 +22,12 @@
             "smiles": []
         },
         "reinforcement_learning": {
-            "agent": "/users/nahalyas/Test_my_code/random.prior.new",
+            "agent": "/users/nahalyas/Test_my_code/human_workflow/Agent_Initial.ckpt",
             "batch_size": 128,
             "learning_rate": 0.0001,
             "margin_threshold": 50,
             "n_steps": 100,
-            "prior": "/users/nahalyas/Test_my_code/random.prior.new",
+            "prior": "/users/nahalyas/Test_my_code/human_workflow/random.prior.new",
             "sigma": 180
         },
         "scoring_function": {
@@ -39,7 +39,7 @@
                     "name": "herg",
                     "specific_parameters": {
                         "descriptor_type": "ecfp_counts",
-                        "model_path": "/users/nahalyas/Test_my_code/herg.pkl",
+                        "model_path": "/users/nahalyas/Test_my_code/human_workflow/herg.pkl",
                         "radius": 3,
                         "scikit": "classification",
                         "size": 2048,
@@ -56,7 +56,7 @@
                     "name": "DRD2",
                     "specific_parameters": {
                         "descriptor_type": "ecfp_counts",
-                        "model_path": "/users/nahalyas/Test_my_code/drd2_initial.pkl",
+                        "model_path": "/users/nahalyas/Test_my_code/human_workflow/drd2_initial.pkl",
                         "radius": 3,
                         "scikit": "classification",
                         "size": 2048,
