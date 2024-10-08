@@ -22,7 +22,7 @@
             "smiles": []
         },
         "reinforcement_learning": {
-            "agent": "/users/nahalyas/Test_my_code/human_workflow/Agent_Initial.ckpt",
+            "agent": "/users/nahalyas/Test_my_code/Agent_Initial.ckpt",
             "batch_size": 128,
             "learning_rate": 0.0001,
             "margin_threshold": 50,
